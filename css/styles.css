@@ -8,6 +8,7 @@ body {
 }
 
 .nav-header-main {
+    position: absolute;
     width: 1600px;
     height: 80px;
     left: 0px;
@@ -126,14 +127,18 @@ body {
     height: 600px;
     left: 1px;
     top: 80px;
+    right: 1px;
+    bottom: 1669px;
 }
 
 .effective-solutions-title {
     position: absolute;
     width: 696px;
     height: 120px;
-    left: 452px;
-    top: 280px;
+    left: 451px;
+    top: 200px;
+    bottom: 280px;
+    right: 453px;
 
     color: rgba(255, 255, 255, 100%);
     font-style: normal;
@@ -149,8 +154,10 @@ body {
     position: absolute;
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
+    left: 699px;
+    top: 350px;
+    bottom: 200px;
+    right: 701px;
     
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -169,6 +176,12 @@ body {
     height: 101px;
     left: 215px;
     top: 774px;
+}
+
+.our-attributes-list {
+    list-style-type: none;
+    width: 270px;
+    height: 101px;
 }
 
 .what-do-we-do {
