@@ -7,31 +7,26 @@ body {
     height: 2349px;
 }
 
-.nav-header-mail {
-    text-decoration: none;
-    color: rgba(117, 117, 117, 100%);
-}
-
+.nav-header-mail,
 .nav-header-tel {
     text-decoration: none;
     color: rgba(117, 117, 117, 100%);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .web-studio-link-header {
-    font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
-    line-height: 31px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-}
-
-.web-studio-link-footer {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
+    font-weight: bold;
     font-size: 26px;
-    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
 .blue-text {
@@ -53,6 +48,12 @@ body {
 .nav-links a{
     text-decoration: none;
     color: inherit;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .nav-links a:hover,
@@ -84,53 +85,119 @@ body {
     text-transform: uppercase;
 }
 
-.button-first {    
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    border-radius: 4px;
+.button-first {
     background-color: rgba(33, 150, 243, 100%);
     color: rgba(255, 255, 255, 100%);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
-.our-attributes-list {
-    list-style-type: none;
-}
-
-.what-do-we-do-list {
-    list-style-type: none;
-}
-
+.our-attributes-list,
+.what-do-we-do-list,
 .our-team-list {
     list-style-type: none;
+}
+
+.lorem-ipsum-title {
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.lorem-ipsum-content {
+    font-weight: normal;
+    line-height: 24px;
+    color: rgba(117, 117, 117, 100%);
+}
+
+.lorem-ipsum-title,
+.lorem-ipsum-content {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.what-do-we-do-title,
+.our-team-title {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-team-worker-title {
+    font-weight: 500;
+}
+
+.our-team-worker-position {
+    font-weight: normal;
+    color: rgba(117, 117, 117, 100%);
+}
+
+.our-team-worker-title,
+.our-team-worker-position {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .footer-main {
     background-color: rgba(47, 48, 58, 100%);
 }
 
+.web-studio-link-footer {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
 
 .footer-address-list {
     list-style-type: none;
 }
 
-.footer-address-city {
+.footer-address-city,
+.footer-address-mail,
+.footer-address-tel {
     text-decoration: none;
+    font-family: inherit;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: rgba(255, 255, 255, 100%)
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 60%)
 }
 
-.footer-address-mail-tel {
+.footer-address-city:hover,
+.footer-address-city:focus,
+.footer-address-mail:hover,
+.footer-address-mail:focus,
+.footer-address-tel:hover,
+.footer-address-tel:focus {
     text-decoration: none;
+    font-family: inherit;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: rgba(255, 255, 255, 60%)
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 100%)
 }
